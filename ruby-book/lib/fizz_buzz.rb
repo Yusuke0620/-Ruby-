@@ -11,15 +11,15 @@ def fizz_buzz(n)
 end
 
 
-require 'minitest/autorun'
+# require 'minitest/autorun'
 
-class FizzBuzzTEST < Minitest::Test
-  def test_fizz_buzz
-    assert_equal '1', fizz_buzz(1)
-    assert_equal '2', fizz_buzz(2)
-    assert_equal 'Fizz', fizz_buzz(3)
-  end
-end
+# class FizzBuzzTEST < Minitest::Test
+#   def test_fizz_buzz
+#     assert_equal '1', fizz_buzz(1)
+#     assert_equal '2', fizz_buzz(2)
+#     assert_equal 'Fizz', fizz_buzz(3)
+#   end
+# end
 
 # 1.upto(30) do |n|
 #   puts fizz_buzz(n)
